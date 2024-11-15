@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+.container{
+    width: 100vw;
+}
+.logo img{
+    width: 2.3rem;
+}
+nav{
+    width: 100%;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+    background: #212a31;
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    width: 8rem;
+}
+.navbar ul{
+    width: 5rem;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+.social-links .fa-brands{
+    margin-left: 1.25rem;
+    font-size: 1.2rem;
+    color: #d3d9d4;
+    transition: transform 0.3s ease;
+}
+.social-links .fa-brands:hover{
+    transform: translateY(-0.25rem);
+}
+.menubar{
+    width: 100%;
+    min-height: 2.6rem;
+    position: sticky;
+    top: 0;
+}
+.menu{
+    background-color: #2e3944;
+    height: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.menu-icon{
+    color: #d3d9d4;
+    text-decoration: none;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+.menu-icon:hover{
+    font-weight: 600;
+    transform: translateY(-2px);
+}
+.content{
+    display: flex;
+    gap: 1.5rem;
+    margin: 1.2rem;
+}
+aside{
+    width: 25%;
+}
+aside .side-container{
+    overflow: auto;
+    height: 75vh;
+}
+.main-img{
+    width: 35rem;
+    border-radius: 1rem;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.txt-img{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.main-content h3{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.foot-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.42rem;
+    background: #125e66;
+}
+.foot-container p{
+    color: #d3d9d4;
+}
+
+/* For tablet-users */
+@media screen and (max-width:768px) {
+    nav{
+        width: 100%;
+    }
+    .txt-img{
+        flex-direction: column;
+    }
+    .main-img{
+        width: 30rem;
+    }
+    aside{
+        width: 50%;
+    }
+}
