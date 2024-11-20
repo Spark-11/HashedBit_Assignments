@@ -3,7 +3,7 @@
 
     ```bash
     git clone https://github.com/UdaySharmaGitHub/Reactjs-Projects.git
-    cd calculator
+    cd Assignment-05
     ```
 
 2. **Install dependencies:**
